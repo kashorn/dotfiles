@@ -8,7 +8,7 @@ nnoremap k gk
 set scrolloff=5
 
 
-" Useful Functions
+" ----  Useful Functions ----
 "disabling this: autocmd bufwritepost .vimrc source $MYVIMRC
 
 function! CommandCabbr(abbreviation, expansion)
@@ -91,7 +91,7 @@ set ic "case insensitive
 set smartcase
 
 
-" splits
+" ---- splits ----
 set splitbelow
 set splitright
 nnoremap <C-J> <C-W><C-J>
