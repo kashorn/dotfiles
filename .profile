@@ -11,5 +11,8 @@ MAVEN_HOME3=~/bin/mvn3/apache-maven-3.2.1
 alias mvn2=$MAVEN_HOME2/bin/mvn
 alias mvn=$MAVEN_HOME3/bin/mvn
 
+# Git
+alias gits='git status'
+
 
 export GIT_SSH=/usr/bin/ssh
