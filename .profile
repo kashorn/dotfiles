@@ -12,7 +12,7 @@ alias mvn2=$MAVEN_HOME2/bin/mvn
 alias mvn=$MAVEN_HOME3/bin/mvn
 
 # Git
-alias gits='git status'
+alias gits='clear; git status'
 
 
 export GIT_SSH=/usr/bin/ssh
