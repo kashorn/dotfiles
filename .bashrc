@@ -9,7 +9,7 @@ fi
 # prompt (must come after '. /etc/bashrc' 
 #    due to that script's setting of prompt)
 ################################################
-source ~/git-completion.bash
+source ~/dotfiles/git-completion.bash
 
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
