@@ -15,5 +15,7 @@ alias mvn=$MAVEN_HOME3/bin/mvn
 alias gits='clear; git status'
 alias gitd='git diff'
 alias gitl='git log'
+alias gitr='git remote -v'
+alias gitb='git branch -v'
 
 export GIT_SSH=/usr/bin/ssh
