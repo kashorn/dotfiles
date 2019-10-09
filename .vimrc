@@ -6,6 +6,9 @@ nnoremap <Down> :echoe "Use j"<CR>
 nnoremap j gj
 nnoremap k gk
 set scrolloff=5
+"set noerrorbells
+"set visualbell
+"set t_vb=
 
 
 " ----  Useful Functions ----
